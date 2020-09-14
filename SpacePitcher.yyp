@@ -1,8 +1,11 @@
 {
   "resources": [
     {"id":{"name":"spr_pitcher","path":"sprites/spr_pitcher/spr_pitcher.yy",},"order":2,},
+    {"id":{"name":"obj_invader","path":"objects/obj_invader/obj_invader.yy",},"order":0,},
     {"id":{"name":"spr_baseball","path":"sprites/spr_baseball/spr_baseball.yy",},"order":1,},
+    {"id":{"name":"obj_pitcher","path":"objects/obj_pitcher/obj_pitcher.yy",},"order":2,},
     {"id":{"name":"spr_invader","path":"sprites/spr_invader/spr_invader.yy",},"order":0,},
+    {"id":{"name":"obj_baseball","path":"objects/obj_baseball/obj_baseball.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
