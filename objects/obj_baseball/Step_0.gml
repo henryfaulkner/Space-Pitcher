@@ -6,6 +6,7 @@ if (y < 608) {
 }
 
 if (y > 650) {
+	//numBalls = numBalls - 1;
 	instance_destroy();
 	var inst = instance_create_layer(obj_pitcher.x + 32, 608, "Instances", obj_baseball);
 	inst.image_xscale = inst.image_xscale * 2.066;
@@ -30,6 +31,6 @@ if (isConnected == true) {
 
 if(y < 608) {
 	if keyboard_check_released(vk_space) {
-			vspeed = 4;	
+		vspeed = 4;	
 	}
 }
